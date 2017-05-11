@@ -17,7 +17,7 @@ Ví dụ: `git clone https://github.com/tagcom/gittut.git`
 7. Để chuyển tới nhánh khác gõ lệnh `git checkout tên_nhánh`  
 Ví dụ: `git checkout thanhduong` là chuyển tới nhánh *thanhduong*  
 (Lúc này giả sử là nhánh *thanhduong* đã có trước)  
-8. Để tạo nhánh mới gõ lệnh `git checkout -b your_branch`  
+8. Để tạo nhánh mới gõ lệnh `git checkout -b your_branch`.Sau đó nhập user và password.  
 Ví dụ: `git checkout -b thanhduong`  
 Có thêm ký tự -b là vừa tạo nhánh vừa checkout
 (Lúc này giả sử là nhánh *thanhduong* chưa có mới tạo thêm mới)  
@@ -31,6 +31,8 @@ Ví dụ: `git push -u origin thanhduong`
 Ví dụ: `git add thanhduong/baitapvim` là thêm thư mục.  
 12. Để kéo từ nhánh *thanhduong* về máy tính gõ lệnh `git pull origin thanhduong`  
 13. Mô tả hành động trước khi push gõ lệnh `git commit -a -m "mo ta hanh dong vua thuc hien"`  
-14. Để push lên github gõ lệnh `git push -u origin thanhduong`. Sau đó nhập user và password. Chú ý lần đầu tiên tạo nhánh thì có thể push lên được nhưng lần thứ hai thì phải push lên trước.  
-15. Để xóa tại kho chứa trên máy tính thì dùng lệnh rm. Để xóa tại kho chứa trên github thì dùng lệnh `git rm --cached filename`  
+14. Để xóa tại kho chứa trên máy tính thì dùng lệnh rm. Để xóa tại kho chứa trên github thì dùng lệnh `git rm --cached filename`  
+15. Xóa nhánh trên trên máy tính dùng lệnh `git branch -d branchname`
+16. Xóa nhánh trên githuc dùng lệnh `git push tenkhochua --delete branchname` 
+Ví dụ: git push testgit --delete nhanha.
 
