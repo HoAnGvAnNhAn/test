@@ -33,6 +33,6 @@ Ví dụ: `git add thanhduong/baitapvim` là thêm thư mục.
 13. Mô tả hành động trước khi push gõ lệnh `git commit -a -m "mo ta hanh dong vua thuc hien"`  
 14. Để xóa tại kho chứa trên máy tính thì dùng lệnh rm. Để xóa tại kho chứa trên github thì dùng lệnh `git rm --cached filename`  
 15. Xóa nhánh trên trên máy tính dùng lệnh `git branch -d branchname`
-16. Xóa nhánh trên githuc dùng lệnh `git push tenkhochua --delete branchname` 
+16. Xóa nhánh trên github dùng lệnh `git push tenkhochua --delete branchname` 
 Ví dụ: git push testgit --delete nhanha.
 
